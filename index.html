@@ -13,12 +13,11 @@
     <script src="app.js" defer></script>
   </head>
   <body>
-    
+    <header>
+      <h1>Vue Practice</h1>
+    </header>
     <section id="my-app">
-      <header>
-        <h1>{{ message }}</h1>
-      </header>
-      <h2>Events in Action</h2>
+      <h2>{{ message }}</h2><br>
       <p>Result: {{counter}}</p>
       <button v-on:click="add">Add</button>
       <button v-on:click="sub">Sub</button>
